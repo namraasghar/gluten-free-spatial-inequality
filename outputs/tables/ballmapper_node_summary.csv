@@ -1,0 +1,8 @@
+Node,Label,Areas,Mean prescribing,Mean retail,Mean IMD,Mean months zero,Equity concern
+N0,Consistent prescribers,44,15.2,0.287,23.1,0.1,Medium
+N1,Deprived withdrawers,23,3.1,0.277,30.2,10.0,High
+N2,Low-deprivation withdrawers,60,3.6,0.285,19.2,4.4,Low
+N3,Double provision,5,20.6,0.352,33.1,0.0,Low
+N4,Affluent retail-only,9,3.6,0.376,15.8,2.6,Low
+N5,Deprived NHS-dependent,16,18.1,0.239,31.6,0.2,High
+N6,Structural double disadvantage,23,2.6,0.232,19.2,3.4,High
