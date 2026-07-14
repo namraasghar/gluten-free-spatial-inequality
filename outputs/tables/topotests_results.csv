@@ -1,0 +1,2 @@
+L2_observed,p_value,n_permutations,significant_005,significant_001,method,note
+38106.5271,0.285,199,False,False,"1-skeleton ECC, permutation test on prescribing axis",Simplified ECC using 0- and 1-simplices only; full higher-dimensional implementation in Dlotko et al. (2024) not feasible at this dataset size
