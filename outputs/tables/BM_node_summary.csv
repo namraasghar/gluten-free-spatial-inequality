@@ -1,0 +1,8 @@
+node_id,node_label,areas,mean_prescribing,mean_retail,mean_imd,mean_months_zero,mean_slope
+0,Consistent prescribers,44,15.166,0.287,23.09,0.068,0.016
+1,Deprived withdrawers,23,3.14,0.277,30.21,10.043,-0.093
+2,Low-deprivation withdrawers,60,3.593,0.285,19.163,4.417,-0.046
+3,Double provision,5,20.602,0.352,33.121,0.0,0.067
+4,Affluent retail-only,9,3.571,0.376,15.838,2.556,0.0
+5,Deprived NHS-dependent,16,18.12,0.239,31.632,0.188,0.014
+6,Structural double disadvantage,23,2.594,0.232,19.181,3.391,-0.029
