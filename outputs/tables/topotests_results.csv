@@ -1,2 +1,2 @@
-L2_observed,p_value,n_permutations,significant_005,significant_001,method,note
-38106.5271,0.285,199,False,False,"1-skeleton ECC, permutation test on prescribing axis",Simplified ECC using 0- and 1-simplices only; full higher-dimensional implementation in Dlotko et al. (2024) not feasible at this dataset size
+L2_observed,p_value,n_permutations,filtration_values,max_dimension,significant_005,significant_001,method,permutation_axis
+21705684.1768,0.66,199,30,2,False,False,"Full Rips complex ECC, max dimension 2, gudhi",Prescribing rate (axis 0)

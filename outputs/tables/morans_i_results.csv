@@ -1,0 +1,5 @@
+variable,morans_I,z_score,p_value
+NHS GF Prescribing Rate,0.0792,5.8738,0.001
+GF Retail Accessibility,0.0442,3.5525,0.004
+Area Deprivation (IMD),0.1115,8.2482,0.001
+Months Zero (Withdrawal),0.0539,4.3904,0.004

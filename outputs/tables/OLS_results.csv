@@ -1,2 +1,4 @@
-R_squared,Adj_R_squared,F_statistic,F_pvalue,coef_const,coef_retail,coef_imd,pval_retail,pval_imd
-0.065,0.0469,3.5818,0.0313,-1.3416,9.7926,0.2939,0.5192,0.0087
+variable,coef,std_err,t_stat,p_value,ci_lower,ci_upper
+const,-1.3416,5.4085,-0.2481,0.8046,-12.068,9.3848
+retail_accessibility_score,9.7926,15.1387,0.6469,0.5192,-20.2314,39.8166
+imd_score_weighted,0.2939,0.11,2.6731,0.0087,0.0759,0.512
