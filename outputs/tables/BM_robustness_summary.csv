@@ -1,0 +1,6 @@
+check,ARI,interpretation,conclusion
+Epsilon: ε=1.25 vs ε=1.50,0.533,Moderate agreement,Selected graph captures genuine structure present at finer resolution
+Epsilon: ε=1.50 vs ε=1.75,0.4023,Moderate agreement,Selected graph retains structure lost at coarser resolution
+Epsilon: ε=1.75 vs ε=2.00,0.6236,Strong agreement,Coarsest resolutions agree — both under-resolved
+Binary retail vs original (ε=1.50),0.6054,Moderate-strong agreement,Weighting scheme does not drive structural findings
+N3 isolation (Blackpool + Leicester City),,Persists in both schemes,"Isolation is genuine structural property, not weighting artefact"
