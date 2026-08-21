@@ -1,0 +1,5 @@
+"comparison","ARI","interpretation"
+"ε=1.25 vs ε=1.50",0.552,"Moderate agreement"
+"ε=1.50 vs ε=1.75",0.416,"Moderate agreement"
+"ε=1.75 vs ε=2.00",0.582,"Strong agreement"
+"Original vs binary retail",0.617,"Moderate-strong agreement"
