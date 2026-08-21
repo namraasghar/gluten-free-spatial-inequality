@@ -676,3 +676,38 @@ write.csv(robustness_summary,
           file.path(TAB_PATH, "BM_R_robustness_summary.csv"),
           row.names = FALSE)
 cat("Saved BM_R_robustness_summary.csv\n")
+
+# ── Export primary partition for Python/interactive map ────────────────────
+# Primary partition: each area assigned to its first covering landmark
+# This matches the greedy sequential covering used in Ball Mapper
+
+primary_df <- data.frame(
+  org_id   = character(),
+  bm_node  = integer(),
+  stringsAsFactors = FALSE
+)
+
+# For each landmark in order, assign uncovered areas
+assigned <- rep(FALSE, nrow(df))
+
+for (i in seq_along(members)) {
+  m <- members[[i]]
+  for (idx in m) {
+    if (!assigned[idx]) {
+      primary_df <- rbind(primary_df, data.frame(
+        org_id  = df$org_id[idx],
+        bm_node = i - 1L,
+        stringsAsFactors = FALSE
+      ))
+      assigned[idx] <- TRUE
+    }
+  }
+}
+
+cat("Primary partition sizes:\n")
+print(sort(table(primary_df$bm_node)))
+
+write.csv(primary_df,
+          file.path(TAB_PATH, "BM_R_primary_partition.csv"),
+          row.names = FALSE)
+cat("Saved BM_R_primary_partition.csv\n")
