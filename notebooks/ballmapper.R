@@ -610,26 +610,30 @@ par(bg = "white")
 par(mar = c(1, 1, 4, 1))
 plot(g,
      layout             = layout_bm,
-     vertex.size        = sqrt(node_size) * 7,
+     rescale            = TRUE,
+     asp                = 0,
+     vertex.size        = sqrt(node_size) * 5,
      vertex.color       = cols_orig,
      vertex.frame.color = "white",
      vertex.label       = as.character(0:(n_nodes - 1)),
-     vertex.label.cex   = 1.1,
+     vertex.label.cex   = 1.8,
      vertex.label.color = "black",
      vertex.label.font  = 2,
      edge.color         = "#73726c",
      edge.width         = 1.5,
-     main               = "Original retail weighting\n(budget=0, regular=1, quality=2)")
+     main               = "Original retail weighting\n")
 
 # Binary
 par(mar = c(1, 1, 4, 1))
 plot(g_bin,
      layout             = layout_bin,
-     vertex.size        = sqrt(node_size_bin) * 7,
+     rescale            = TRUE,
+     asp                = 0,
+     vertex.size        = sqrt(node_size_bin) * 5,
      vertex.color       = cols_bin,
      vertex.frame.color = "white",
      vertex.label       = as.character(0:(n_nodes_bin - 1)),
-     vertex.label.cex   = 1.1,
+     vertex.label.cex   = 1.8,
      vertex.label.color = "black",
      vertex.label.font  = 2,
      edge.color         = "#73726c",
